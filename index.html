@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5htRzkyz2QlH8rYD8pDSQEAZLXlwjmpLA3A&s');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .container {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            height: auto;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 90%;
+            max-width: 500px;
+            color: white;
+        }
+        table, th, td {
+            border: 1px solid white;
+            padding: 10px;
+        }
+        form {
+            width: 90%;
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+            color: black;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        button {
+            background: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>Welcome to the Movie Web Page</header>
+    <div class="container">
+        <img src="https://media.licdn.com/dms/image/v2/D5612AQE9JRZki3LaDg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1708819129715?e=2147483647&v=beta&t=Scu7OZXhHLdYJJh2MH8W092fqd9iI0vmbOdsjDDjsvQ" alt="Movie Preview Image">
+        
+        <h2>About The Movie</h2>
+        <p>Movies are a powerful medium of storytelling that transport audiences into different worlds, emotions, and experiences.</p>
+        
+        <h2>Genres of Movies</h2>
+        <ul>
+            <li><b>Action:</b> High-energy films filled with intense scenes, fights, and breathtaking stunts.</li>
+            <li><b>Comedy:</b> Lighthearted films designed to make audiences laugh with humor and fun moments.</li>
+            <li><b>Drama:</b> Emotionally powerful stories that explore deep human emotions and relationships.</li>
+            <li><b>Sci-Fi & Fantasy:</b> Stories set in futuristic or magical worlds with imaginative storytelling.</li>
+            <li><b>Horror:</b> Films that evoke fear and suspense with eerie settings and terrifying plots.</li>
+            <li><b>Romance:</b> Heartfelt love stories that explore relationships, emotions, and connections.</li>
+            <li><b>Documentary:</b> Real-life stories, events, and topics presented with factual accuracy.</li>
+        </ul>
+        
+        <h2>Movie Ratings</h2>
+        <table>
+            <tr>
+                <th>Aspect</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td>Story</td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Visuals</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Soundtrack</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
+        </table>
+        
+        <h2>Movie Theme Music</h2>
+        <video controls width="80%" max-width="600">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </div>
+</body>
+</html>
